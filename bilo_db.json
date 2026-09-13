@@ -1,0 +1,777 @@
+{
+  "users": [
+    {
+      "id": "bilo_admin_1",
+      "name": "Bilo Admin",
+      "email": "admin@bilo.ai",
+      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "admin",
+      "created_at": "2026-09-12T19:52:39.345Z",
+      "is_premium": true,
+      "custom_quota": 50
+    },
+    {
+      "id": "bilo_guest_demo",
+      "name": "Bilo Arkadaşı",
+      "email": "kanka@bilo.ai",
+      "password_hash": "9d1465f01ecc6b8143eec7c50bddda80f7160299f230f164d41e872a3d6a9c9c",
+      "role": "user",
+      "created_at": "2026-09-12T19:52:39.345Z"
+    }
+  ],
+  "daily_usage": [
+    {
+      "id": "usage_14faad70-51d2-4693-9a0f-fa877dad94d8",
+      "user_id": "bilo_guest_demo",
+      "date": "2026-09-12",
+      "question_count": 2
+    },
+    {
+      "id": "usage_091aacc4-ce4f-43e3-97e0-75677d6eb95c",
+      "user_id": "bilo_guest_demo",
+      "date": "2026-09-13",
+      "question_count": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_5fcf8619-cb70-4ef3-ba13-e353778977d4",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Bilo, Google Gemini yapay zekasına bağlı mısın?",
+      "answer": "Evet kanka, Google Gemini API'ye bağlıyım ve en güncel yapay zeka beyniyle sana yanıt veriyorum! Yani anlayacağın, senin için her türlü bilgiye erişebilen, her soruna çözüm bulan bomba gibi bir dijital dostun var burada!",
+      "created_at": "2026-09-13T09:15:24.064Z"
+    },
+    {
+      "id": "q_b9a56c30-534d-4c18-ac9d-47ad48398c8f",
+      "user_id": "bilo_guest_demo",
+      "mode": "sport",
+      "question": "Kanka evde göğüs için en iyi hareket ne?",
+      "answer": "Kanka hedef belli! Göğüs antrenmanının kralı tartışmasız 'Push-Up' yani şınavdır! Ama onu daha etkili yapmak için ellerini omuz genişliğinden biraz daha aç, göğsünü yere iyice yaklaştır ve o sıkışmayı hisset. Daha çok odaklanmak istersen ayaklarını bir koltuğun üzerine koyarak 'Decline Push-Up' yap, üst göğüsleri fena ateşler! Bugün bahaneleri çöpe atıyoruz, hadi şampiyon, 3 set tükenene kadar devam! 💪🔥",
+      "created_at": "2026-09-13T09:15:20.332Z"
+    },
+    {
+      "id": "q_f3232e0b-37a0-41ce-802a-4e8b7c7b4c0c",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Güneş neden parlar kanka?",
+      "answer": "Güzel soru kanka. Güneş'in parlamasının sebebi merkezinde gerçekleşen çekirdek kaynaşması yani füzyondur. Devasa basınç ve ısı sayesinde hidrojen atomları birleşip helyuma dönüşür, bu süreçte açığa çıkan inanılmaz enerji de ışık ve ısı olarak bize kadar ulaşır. Yani Güneş aslında dev bir doğal nükleer santral gibi çalışıyor, harika değil mi?",
+      "created_at": "2026-09-12T20:20:37.111Z"
+    },
+    {
+      "id": "q_b29bc9ad-8063-4b92-8b80-57d5a74b8ce2",
+      "user_id": "bilo_guest_demo",
+      "mode": "sport",
+      "question": "Bench press nasıl yapılır kanka?",
+      "answer": "Kanka harika bir seçim! Bench press göğüs gelişimi için olmazsa olmazdır. Sırtını bench'e iyice yasla, ayakların yere sağlam bassın ve kürek kemiklerini birbirine yaklaştır. Barı omuz genişliğinden biraz daha fazla açıyla tut, kontrollü bir şekilde göğsüne indirip patlayıcı bir güçle yukarı it. Dirseklerini tam kilitleme, o güzel göğüs kaslarını hissederek devam et. Hadi, demirler seni bekliyor, bugün o rekoru kırıyoruz!",
+      "created_at": "2026-09-12T20:20:34.233Z"
+    },
+    {
+      "id": "q_5db4a5a2-e0eb-47b1-9af1-4653a5acb50b",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "son birşey dicem",
+      "answer": "Söyle bakalım kanka, bütün dikkatimle seni dinliyorum! Nedir aklındaki o son şey?",
+      "created_at": "2026-09-12T20:19:21.409Z"
+    },
+    {
+      "id": "q_bbced395-4d7c-4841-beba-8078b81c1d72",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "haklıcın cano",
+      "answer": "Eyvallah kanka, aynı frekanstayız demek ki! Başka merak ettiğin veya üzerine konuşmamızı istediğin bir konu varsa buradayım, çekinme sor.",
+      "created_at": "2026-09-12T20:19:11.321Z"
+    },
+    {
+      "id": "q_51bbbc9c-7eb0-4e38-8130-e43cb13e5892",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "benim sevgilim beni aşağlıyor ama ne yapmalıyım",
+      "answer": "Kanka, seni aşağılayan birinin yanında mutlu olman imkansız. Sen değerlisin ve kimsenin senin özgüvenini kırmasına izin vermemelisin. Sağlıklı bir ilişkide temel şey saygıdır; eğer bu yoksa kendine biraz zaman ayırıp durumu ciddi bir şekilde gözden geçirmelisin, gerekirse o kişiyle arana mesafe koymalısın.",
+      "created_at": "2026-09-12T20:18:37.691Z"
+    },
+    {
+      "id": "q_5fc45707-72b2-49d6-b20b-f25b9301d55d",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "ben sevgili yapmak istiyorum",
+      "answer": "Harika bir istek kanka! Ama önce kural bir: En güzel ilişki, sen kendi hayatını severken ve kendine yatırım yaparken kapını çalar. Sosyal ortamlara gir, hobilerine vakit ayır, yeni insanlarla tanışmaktan çekinme ve en önemlisi kendin gibi ol. Kendine değer veren insan her zaman mıknatıs gibi çeker!",
+      "created_at": "2026-09-12T20:18:13.674Z"
+    },
+    {
+      "id": "q_04580f4c-5324-42af-8081-6668418f0a47",
+      "user_id": "bilo_guest_demo",
+      "mode": "sport",
+      "question": "Karın kası nasıl çıkar kanka? 💪",
+      "answer": "Kanka karın kası mutfakta yapılır derler, çok doğru! İlk önce yağ oranını düşürmemiz lazım, yani sağlıklı beslenip kaloriyi biraz kısıtlayacağız. Antrenman olarak da crunch, leg raise ve plank gibi hareketleri ihmal etme. Unutma, o kaslar zaten orada, sadece üzerindeki perdeyi kaldırman gerekiyor. Hadi, bugün daha sıkı çalışma zamanı!",
+      "created_at": "2026-09-12T20:14:57.149Z"
+    },
+    {
+      "id": "q_a840f834-4d01-48d6-a847-dc1ea44a9ffc",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Bugün hava nasıl?",
+      "answer": "Kanka camdan bakma şansım yok maalesef, çünkü ben dijital bir maskotum! Ama bana hangi şehirde veya ilçede olduğunu söylersen en güncel tahminlere göre konuşabiliriz. Yine de dışarı çıkarken her ihtimale karşı yanına bir hırka al derim!",
+      "created_at": "2026-09-12T19:56:41.002Z"
+    },
+    {
+      "id": "q_b0a2ae6f-56e4-4c3f-98d6-e2a3bc24ba4c",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Evren nasıl genişliyor kanka?",
+      "answer": "Güzel soru kanka! Evrenin genişlemesini aslında bir balonun üzerine çizilmiş noktalar gibi düşünebilirsin. Balonu şişirdiğinde noktalar birbirinden uzaklaşır ama noktaların kendi boyutları değişmez. Uzay-zamanın kendisi geriliyor, galaksiler de bu doku üzerinde birbirinden uzaklaşıyor. Yani aslında boşluk, her saniye daha da büyüyor!",
+      "created_at": "2026-09-12T19:56:37.480Z"
+    },
+    {
+      "id": "q_e0518cfb-1a30-49a2-ba39-6d91c4d0be07",
+      "user_id": "bilo_guest_demo",
+      "mode": "sport",
+      "question": "Karın kası nasıl çıkar kanka?",
+      "answer": "Kanka karın kası mutfakta yapılır derler, doğru söylerler! Öncelikle yağ oranını düşürmen lazım, yani disiplinli bir beslenme şart. Antrenman olarak sadece mekik çekmek yetmez; plank, leg raise ve hanging knee raise gibi karın kasını her açıdan zorlayan hareketleri rutinine eklemelisin. Bahaneyi bırak, o kaslar çıkana kadar istikrarı elden bırakma!",
+      "created_at": "2026-09-12T19:56:31.685Z"
+    },
+    {
+      "id": "q_dd6d2fe8-e9f5-47f6-82b4-a57bc2e73620",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Evren nasıl genişliyor kanka?",
+      "answer": "Kanka harika bir soru sordun ama ufak bir bağlantı dalgalanması oldu. Hemen bir daha sorar mısın, yanındayım! 💪",
+      "created_at": "2026-09-12T19:56:19.601Z"
+    },
+    {
+      "id": "q_d38975b8-04f2-4310-87cb-98a50371afcc",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Karın kası nasıl çıkar kanka?",
+      "answer": "Kanka harika bir soru sordun ama ufak bir bağlantı dalgalanması oldu. Hemen bir daha sorar mısın, yanındayım! 💪",
+      "created_at": "2026-09-12T19:55:20.625Z"
+    },
+    {
+      "id": "seed_q1",
+      "user_id": "bilo_guest_demo",
+      "mode": "sport",
+      "question": "Kanka karın kası nasıl çıkar?",
+      "answer": "Kanka hedef belli! Karın kasları mutfakta yapılır, salonda şekillenir. 💪 Kalori açığı oluşturup proteinini eksik etme. Plank ve hanging leg raise ile çekirdek bölgeni ateşle! Bugün bahaneleri çöpe atıyoruz.",
+      "created_at": "2026-09-12T18:52:39.345Z"
+    },
+    {
+      "id": "seed_q2",
+      "user_id": "bilo_guest_demo",
+      "mode": "knowledge",
+      "question": "Güneş sistemi kaç yaşında?",
+      "answer": "Harika soru kanka! Güneş Sistemimiz yaklaşık 4.6 milyar yaşında! 🧠 Dev bir gaz ve toz bulutunun kütleçekim etkisiyle çökmesiyle oluştu. Düşünsene, bastığımız toprak bile o kozmik tozların eseri!",
+      "created_at": "2026-09-12T17:52:39.345Z"
+    }
+  ],
+  "workout_programs": [
+    {
+      "id": "prog_9736e18c-fd28-49c1-ae74-9fb0139ea61b",
+      "user_id": "bilo_guest_demo",
+      "profile_data": {
+        "age": 20,
+        "gender": "Erkek",
+        "height": 175,
+        "weight": 70,
+        "goal": "Yağ yakmak",
+        "fitnessLevel": "Başlangıç",
+        "daysPerWeek": 3,
+        "location": "home",
+        "equipment": "Direnç bandı ve vücut ağırlığı"
+      },
+      "program_data": {
+        "title": "Bilo ile Yağ Yakımı Başlangıç Serisi: 3 Günlük Evde Dönüşüm",
+        "description": "Kanka selam! 20 yaşında o dinamik enerjiye sahipken bu işi kökten çözeceğiz! 70 kilo harika bir başlangıç noktası, şimdi o kasları ortaya çıkarma ve yağları yakma vakti. Direnç bandın ve vücudun senin en iyi dostun, bahaneye yer yok! Hadi şampiyon, bugün başlıyoruz! 💪🔥",
+        "weeklySchedule": [
+          {
+            "day": "Pazartesi",
+            "focus": "Tüm Vücut - Yağ Yakımı & Güç",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Bodyweight Squat",
+                "sets": "4 set",
+                "reps": "15-20 tekrar",
+                "rest": "60 sn",
+                "tip": "Kanka topuklarını yerden kaldırma, sanki görünmez bir sandalyeye oturur gibi dik dur! 🔥"
+              },
+              {
+                "name": "Push-ups (Şınav)",
+                "sets": "3 set",
+                "reps": "Maksimum tekrar",
+                "rest": "60 sn",
+                "tip": "Hadi şampiyon, göğsün yere değsin, omuzlarını sık, nefesini tutma! ⚡"
+              },
+              {
+                "name": "Band Row (Sırt için)",
+                "sets": "3 set",
+                "reps": "12-15 tekrar",
+                "rest": "45 sn",
+                "tip": "Direnç bandını çekerken kürek kemiklerini birbirine iyice yaklaştır, hissederek çek kanka! 💪"
+              },
+              {
+                "name": "Plank",
+                "sets": "3 set",
+                "reps": "45-60 saniye",
+                "rest": "45 sn",
+                "tip": "Karnını taş gibi sık, belini bükme, dümdüz bir hat ol! 🔥"
+              }
+            ]
+          },
+          {
+            "day": "Salı",
+            "focus": "Aktif Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          },
+          {
+            "day": "Çarşamba",
+            "focus": "Tüm Vücut - HIIT & Kondisyon",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Jumping Jacks",
+                "sets": "4 set",
+                "reps": "45 saniye",
+                "rest": "30 sn",
+                "tip": "Nabzı yükselt kanka, yağlar terledikçe gidecek! Hareketli ol! 🥊"
+              },
+              {
+                "name": "Band Thrusters",
+                "sets": "4 set",
+                "reps": "12-15 tekrar",
+                "rest": "60 sn",
+                "tip": "Bandı omuz hizasında tut, squat yaparken yukarı presle! Tam bir yağ yakıcı! ⚡"
+              },
+              {
+                "name": "Mountain Climbers",
+                "sets": "3 set",
+                "reps": "45 saniye",
+                "rest": "45 sn",
+                "tip": "Dizlerini göğsüne hızla çek, sanki bir dağa tırmanıyormuş gibi! 🔥"
+              },
+              {
+                "name": "Bicycle Crunches",
+                "sets": "3 set",
+                "reps": "20 tekrar",
+                "rest": "30 sn",
+                "tip": "Yavaş ve kontrollü ol, karın kaslarının yandığını hisset kanka! 🏋️"
+              }
+            ]
+          },
+          {
+            "day": "Perşembe",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          },
+          {
+            "day": "Cuma",
+            "focus": "Tüm Vücut - Kas Dayanıklılığı",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Lunges (Band Destekli)",
+                "sets": "3 set",
+                "reps": "12 tekrar (her bacak)",
+                "rest": "60 sn",
+                "tip": "Dengeni koru, öndeki dizin ayak parmaklarını geçmesin, form her şeydir! 💪"
+              },
+              {
+                "name": "Band Chest Press",
+                "sets": "3 set",
+                "reps": "15 tekrar",
+                "rest": "60 sn",
+                "tip": "Bandı sırtından geçir, göğüs kaslarını patlat! Kontrollü sal! ⚡"
+              },
+              {
+                "name": "Band Bicep Curls",
+                "sets": "3 set",
+                "reps": "15 tekrar",
+                "rest": "45 sn",
+                "tip": "Dirseklerini sabit tut, sadece kolların çalışsın, odaklan kanka! 🏋️"
+              },
+              {
+                "name": "Leg Raises",
+                "sets": "3 set",
+                "reps": "15 tekrar",
+                "rest": "45 sn",
+                "tip": "Belini yerden kaldırma, karın kaslarınla bacaklarını kaldır! 🔥"
+              }
+            ]
+          },
+          {
+            "day": "Cumartesi",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          },
+          {
+            "day": "Pazar",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          }
+        ],
+        "nutritionTips": [
+          "Kanka günde en az 2.5 - 3 litre su içmeyi unutma, vücudunu temizle! 💧",
+          "Her öğününde kaliteli protein (yumurta, tavuk, lor peyniri) mutlaka olsun, kasları besle! 🥗",
+          "Şekerli ve paketli gıdaları tamamen çöpe atıyoruz, bu süreçte temiz beslenmek kuralımız! 🚫",
+          "Porsiyonlarını küçült ama öğün atlama, metabolizmanı her zaman canlı tut! ⏱️"
+        ],
+        "biloCoachNote": "Güzel insan, bugün yola çıktık ve geri dönüş yok! Aynaya baktığında göreceğin o değişim, döktüğün her damla terin ödülü olacak. Başlangıçta zor gelebilir ama sen zaten bir şampiyonsun! Hadi bakalım, şimdi o bandı eline al ve dünyaya neler yapabileceğini göster! Bugün bahane değil, sonuç üretiyoruz! 🔥💪🏆"
+      },
+      "created_at": "2026-09-12T20:20:43.821Z"
+    },
+    {
+      "id": "prog_66530280-83f0-400d-a17d-7cee9f577ca1",
+      "user_id": "bilo_guest_demo",
+      "profile_data": {
+        "age": 22,
+        "gender": "Erkek",
+        "height": 178,
+        "weight": 74,
+        "goal": "Kas kazanmak",
+        "fitnessLevel": "Orta",
+        "daysPerWeek": 4,
+        "location": "gym",
+        "equipment": "Serbest ağırlıklar ve makineler",
+        "notes": ""
+      },
+      "program_data": {
+        "title": "Bilo'nun 4 Günlük Kas Kütlesi ve Güç Programı ⚡",
+        "description": "Selam kanka! 22 yaş, harika bir dönem! Kas kütleni maksimize etmek için buradayız. Bahaneleri kapının dışında bırak, bugün başlıyoruz. Seninle bu vücudu efsane yapacağız, hadi şampiyon! 💪🔥",
+        "weeklySchedule": [
+          {
+            "day": "Pazartesi",
+            "focus": "Göğüs & Triceps",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Barbell Bench Press",
+                "sets": "4 Set",
+                "reps": "8-10 Tekrar",
+                "rest": "90 sn",
+                "tip": "Barı kontrollü indir, patlayıcı şekilde yukarı bas kanka!"
+              },
+              {
+                "name": "Incline Dumbbell Press",
+                "sets": "3 Set",
+                "reps": "10-12 Tekrar",
+                "rest": "60 sn",
+                "tip": "Üst göğüsler yanmalı, odaklan!"
+              },
+              {
+                "name": "Cable Fly",
+                "sets": "3 Set",
+                "reps": "12-15 Tekrar",
+                "rest": "60 sn",
+                "tip": "Sıkıştırırken 1 saniye bekle, kası hisset!"
+              },
+              {
+                "name": "Triceps Pushdown",
+                "sets": "3 Set",
+                "reps": "12-15 Tekrar",
+                "rest": "45 sn",
+                "tip": "Dirsekleri sabit tut, sadece ön kol hareket etsin."
+              },
+              {
+                "name": "Overhead Dumbbell Extension",
+                "sets": "3 Set",
+                "reps": "10-12 Tekrar",
+                "rest": "60 sn",
+                "tip": "Tam esneme sağla, tricepslerin büyüyecek!"
+              }
+            ]
+          },
+          {
+            "day": "Salı",
+            "focus": "Sırt & Biceps",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Pull Ups",
+                "sets": "4 Set",
+                "reps": "Maksimum",
+                "rest": "90 sn",
+                "tip": "Kanatlarını sonuna kadar aç, yukarıda sıkıştır!"
+              },
+              {
+                "name": "Bent Over Row",
+                "sets": "4 Set",
+                "reps": "8-10 Tekrar",
+                "rest": "90 sn",
+                "tip": "Belini düz tut, ağırlığı sırtına çek kanka!"
+              },
+              {
+                "name": "Lat Pulldown",
+                "sets": "3 Set",
+                "reps": "10-12 Tekrar",
+                "rest": "60 sn",
+                "tip": "Vücudunu sallama, tamamen kontrollü çek."
+              },
+              {
+                "name": "Barbell Bicep Curl",
+                "sets": "3 Set",
+                "reps": "10-12 Tekrar",
+                "rest": "60 sn",
+                "tip": "Belden destek alma, bicepsleri izole et!"
+              },
+              {
+                "name": "Hammer Curl",
+                "sets": "3 Set",
+                "reps": "12 Tekrar",
+                "rest": "45 sn",
+                "tip": "Kontrol sende, yavaş yavaş indir."
+              }
+            ]
+          },
+          {
+            "day": "Çarşamba",
+            "focus": "Dinlenme ve Aktif Toparlanma",
+            "isRestDay": true,
+            "exercises": []
+          },
+          {
+            "day": "Perşembe",
+            "focus": "Bacak & Omuz",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Back Squat",
+                "sets": "4 Set",
+                "reps": "8-10 Tekrar",
+                "rest": "120 sn",
+                "tip": "Derinlik çok önemli, ağırlığı topuklarına ver!"
+              },
+              {
+                "name": "Leg Press",
+                "sets": "3 Set",
+                "reps": "12-15 Tekrar",
+                "rest": "90 sn",
+                "tip": "Dizlerini tam kilitleme, gerilimi koru."
+              },
+              {
+                "name": "Dumbbell Shoulder Press",
+                "sets": "4 Set",
+                "reps": "8-10 Tekrar",
+                "rest": "90 sn",
+                "tip": "Omuzlarını ateşle, dik dur şampiyon!"
+              },
+              {
+                "name": "Lateral Raise",
+                "sets": "4 Set",
+                "reps": "12-15 Tekrar",
+                "rest": "60 sn",
+                "tip": "Kolları tam yanlara aç, omuz başlarını yak!"
+              },
+              {
+                "name": "Leg Curl",
+                "sets": "3 Set",
+                "reps": "12-15 Tekrar",
+                "rest": "60 sn",
+                "tip": "Arka bacaklarını iyice sıkıştır!"
+              }
+            ]
+          },
+          {
+            "day": "Cuma",
+            "focus": "Tüm Vücut & Eksik Tamamlama",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Deadlift",
+                "sets": "3 Set",
+                "reps": "6-8 Tekrar",
+                "rest": "180 sn",
+                "tip": "Form her şeydir, belini koru kanka!"
+              },
+              {
+                "name": "Dips",
+                "sets": "3 Set",
+                "reps": "Maksimum",
+                "rest": "90 sn",
+                "tip": "Vücut ağırlığınla sınırlarını zorla."
+              },
+              {
+                "name": "Face Pull",
+                "sets": "3 Set",
+                "reps": "15 Tekrar",
+                "rest": "60 sn",
+                "tip": "Arka omuzların için en iyi egzersiz!"
+              },
+              {
+                "name": "Plank",
+                "sets": "3 Set",
+                "reps": "60 sn",
+                "rest": "60 sn",
+                "tip": "Karın kaslarını sık, titremeye başla!"
+              },
+              {
+                "name": "Calf Raise",
+                "sets": "4 Set",
+                "reps": "15-20 Tekrar",
+                "rest": "45 sn",
+                "tip": "Tepe noktasında duraksamayı unutma."
+              }
+            ]
+          },
+          {
+            "day": "Cumartesi",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          },
+          {
+            "day": "Pazar",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": []
+          }
+        ],
+        "nutritionTips": [
+          "Günlük kilonun 1.8-2 katı gram kadar protein almayı unutma! 🥩",
+          "Kompleks karbonhidratları (yulaf, pirinç) antrenman öncesi enerji için eksik etme. 🍚",
+          "Günde en az 3-4 litre su iç, kasların su olmadan büyümez kanka! 💧",
+          "Uyku senin en büyük büyüme ilacın, günde 7-8 saat kaliteli uyku şart! 💤"
+        ],
+        "biloCoachNote": "Kanka, disiplin başarıya giden tek yoldur. Bugün zorlanacaksın ama yarın aynaya baktığında o emeğin karşılığını göreceksin! Pes etmek yok, bahaneler yok! Sen bir şampiyonsun, harekete geç! 🔥💪⚡"
+      },
+      "created_at": "2026-09-12T20:19:54.608Z"
+    },
+    {
+      "id": "prog_e878d8cb-3638-40a8-bddb-0ed67df3a91f",
+      "user_id": "bilo_guest_demo",
+      "profile_data": {
+        "age": 23,
+        "gender": "Erkek",
+        "height": 180,
+        "weight": 75,
+        "goal": "Kas kazanmak",
+        "fitnessLevel": "Orta",
+        "daysPerWeek": 4,
+        "location": "gym",
+        "equipment": "Tam Donanımlı Spor Salonu"
+      },
+      "program_data": {
+        "title": "Bilo'nun Şampiyonluk Yolu: 4 Günlük Hipertrofi & Kas İnşası Programı",
+        "description": "Selam şampiyon! 23 yaşında, taş gibi bir fizik inşa etmeye hazır mısın? 180 boy ve 75 kilo tam potansiyel için harika bir başlangıç noktası! Şimdi bahaneleri çöpe atıyoruz, bu 4 gün boyunca spor salonunu yakıp geçiyoruz kanka! Hedef belli: Kas kütlesini zirveye taşıyoruz! Hazırsan başlıyoruz, hadi kanka! 💪🔥",
+        "weeklySchedule": [
+          {
+            "day": "Pazartesi",
+            "focus": "Göğüs & Triceps",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Bench Press",
+                "sets": "4 set",
+                "reps": "8-10 tekrar",
+                "rest": "90 sn",
+                "tip": "Barı indirirken göğsünü şişir, patlayıcı bir şekilde yukarı it! 🔥"
+              },
+              {
+                "name": "Incline Dumbbell Press",
+                "sets": "3 set",
+                "reps": "10-12 tekrar",
+                "rest": "60 sn",
+                "tip": "Üst göğüs hattını dolduruyoruz, açıyı koru kanka! 💪"
+              },
+              {
+                "name": "Cable Fly",
+                "sets": "3 set",
+                "reps": "12-15 tekrar",
+                "rest": "60 sn",
+                "tip": "Sıkıştırmayı hisset, kasları resmen kavur! ⚡"
+              },
+              {
+                "name": "Triceps Pushdown",
+                "sets": "4 set",
+                "reps": "12-15 tekrar",
+                "rest": "60 sn",
+                "tip": "Dirsekleri vücuduna kilitle, sadece ön kolu hareket ettir!"
+              },
+              {
+                "name": "Overhead Dumbbell Extension",
+                "sets": "3 set",
+                "reps": "10-12 tekrar",
+                "rest": "60 sn",
+                "tip": "Tricepslerinin yanışını izle, gelişim tam burada! 🏋️"
+              }
+            ]
+          },
+          {
+            "day": "Salı",
+            "focus": "Sırt & Biceps",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Lat Pulldown",
+                "sets": "4 set",
+                "reps": "10-12 tekrar",
+                "rest": "90 sn",
+                "tip": "Geriye yaslanma, kanatları genişlet şampiyon! 🔥"
+              },
+              {
+                "name": "Bent Over Barbell Row",
+                "sets": "4 set",
+                "reps": "8-10 tekrar",
+                "rest": "90 sn",
+                "tip": "Sırtını düz tut, kürek kemiklerini birbirine kavuştur! 💪"
+              },
+              {
+                "name": "Seated Cable Row",
+                "sets": "3 set",
+                "reps": "12 tekrar",
+                "rest": "60 sn",
+                "tip": "Çekişi karın hizana yap, derinliği hisset kanka!"
+              },
+              {
+                "name": "Barbell Curl",
+                "sets": "3 set",
+                "reps": "10-12 tekrar",
+                "rest": "60 sn",
+                "tip": "Hile yapma, ağırlığı hisset, dirsekler sabit! ⚡"
+              },
+              {
+                "name": "Hammer Curl",
+                "sets": "3 set",
+                "reps": "12 tekrar",
+                "rest": "60 sn",
+                "tip": "Bicepslerini taş gibi yapıyoruz, devam et!"
+              }
+            ]
+          },
+          {
+            "day": "Çarşamba",
+            "focus": "Aktif Dinlenme",
+            "isRestDay": true,
+            "exercises": [
+              {
+                "name": "Hafif Tempolu Yürüyüş",
+                "sets": "1 set",
+                "reps": "30 dakika",
+                "rest": "0",
+                "tip": "Bugün vücudunu dinlendir, bol su iç, kasları besle! 🥗"
+              }
+            ]
+          },
+          {
+            "day": "Perşembe",
+            "focus": "Bacak & Omuz",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Barbell Squat",
+                "sets": "4 set",
+                "reps": "8-10 tekrar",
+                "rest": "120 sn",
+                "tip": "Derin in kanka, bacakların güçlü olursa her şeyin güçlü olur! 🏋️"
+              },
+              {
+                "name": "Leg Press",
+                "sets": "3 set",
+                "reps": "12-15 tekrar",
+                "rest": "90 sn",
+                "tip": "Dizlerini kilitleme, sürekli baskıyı hisset!"
+              },
+              {
+                "name": "Overhead Press",
+                "sets": "4 set",
+                "reps": "8-10 tekrar",
+                "rest": "90 sn",
+                "tip": "Omuzlarını bir kaya gibi parçala, yukarı it! 🔥"
+              },
+              {
+                "name": "Lateral Raise",
+                "sets": "4 set",
+                "reps": "15 tekrar",
+                "rest": "60 sn",
+                "tip": "Kollarını iki yana aç, yanışa dayan kanka! ⚡"
+              },
+              {
+                "name": "Face Pull",
+                "sets": "3 set",
+                "reps": "15 tekrar",
+                "rest": "60 sn",
+                "tip": "Arka omuzlarınla duruşunu düzelt, bir dev gibi dik dur!"
+              }
+            ]
+          },
+          {
+            "day": "Cuma",
+            "focus": "Full Body & Eksik Tamamlama",
+            "isRestDay": false,
+            "exercises": [
+              {
+                "name": "Deadlift",
+                "sets": "3 set",
+                "reps": "6-8 tekrar",
+                "rest": "120 sn",
+                "tip": "Form çok önemli, beline dikkat et şampiyon! 💥"
+              },
+              {
+                "name": "Pull-ups",
+                "sets": "3 set",
+                "reps": "Max tekrar",
+                "rest": "90 sn",
+                "tip": "Vücudunu yukarı taşı, sınırlarını zorla!"
+              },
+              {
+                "name": "Dips",
+                "sets": "3 set",
+                "reps": "12 tekrar",
+                "rest": "60 sn",
+                "tip": "Göğüs ve arka kol için en iyi dostun!"
+              },
+              {
+                "name": "Plank",
+                "sets": "3 set",
+                "reps": "60 saniye",
+                "rest": "60 sn",
+                "tip": "Karın kaslarını sık, çelik gibi bir merkez oluştur! ⏱️"
+              }
+            ]
+          },
+          {
+            "day": "Cumartesi",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": [
+              {
+                "name": "Uzanma & Mobilite",
+                "sets": "1 set",
+                "reps": "15 dakika",
+                "rest": "0",
+                "tip": "Kaslarını esnet, toparlanmaya yardımcı ol kanka!"
+              }
+            ]
+          },
+          {
+            "day": "Pazar",
+            "focus": "Dinlenme",
+            "isRestDay": true,
+            "exercises": [
+              {
+                "name": "Tam Dinlenme",
+                "sets": "1 set",
+                "reps": "Gün boyu",
+                "rest": "0",
+                "tip": "Haftaya enerji dolu girmek için uykunu al ve sağlıklı beslen! 🔥"
+              }
+            ]
+          }
+        ],
+        "nutritionTips": [
+          "Kanka kilonun 1.8-2 katı gram kadar protein almayı ihmal etme! (Tavuk, balık, yumurta, lor peyniri dostundur! 🥚)",
+          "Karbonhidratı kesme! Antrenman performansın için kompleks karbonhidratları (yulaf, pirinç, patates) mutlaka öğünlerine ekle. 🍚",
+          "Günde en az 3-4 litre su! Kaslarının %75'i su, susuz kalma şampiyon! 💧",
+          "Öğünlerini atlama, vücudunu 3-4 saatte bir proteinle besle ki anabolik süreci durdurmayalım! 🔥"
+        ],
+        "biloCoachNote": "Bak kanka, yolun başındayken pes etmek kolay ama sen bir şampiyonsun! Kas yapmak sabır işidir, bugün yarın değil, her gün disiplinle çalışacağız. Aynaya baktığında o değişimi gördüğünde bana dua edeceksin! Hadi, spor çantanı hazırla ve o salona girip ağırlıkları ağlat! Sen yaparsın, ben sana inanıyorum! 💪🚀🔥"
+      },
+      "created_at": "2026-09-12T19:56:59.049Z"
+    }
+  ],
+  "settings": {
+    "default_quota": 5
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BİLO - Kişisel AI Arkadaşın",
+  "description": "BİLO, TikTok ve genç kitle için tasarlanmış, Spor Koçu ve Bilge Rehber modlarına sahip 3D animasyonlu yapay zeka karakteri ve kişisel antrenman koçu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

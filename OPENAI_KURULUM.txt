@@ -1,0 +1,20 @@
+BİLO – OpenAI kurulumu
+
+1) `.env.example` dosyasını `.env` olarak kopyalayın.
+2) Aşağıdaki değerleri doldurun:
+
+VITE_SUPABASE_URL=https://nztlkvparlnamcsjmcqx.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_SUPABASE_PUBLISHABLE_KEY
+SUPABASE_URL=https://nztlkvparlnamcsjmcqx.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=YOUR_SUPABASE_SECRET
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+
+3) Terminal:
+   npm install
+   npm run dev
+
+OpenAI anahtarı yalnızca sunucuda kullanılır; VITE_ ile başlayan bir değişken olarak koymayın.
+
+AI sağlayıcısı Gemini'den OpenAI Responses API'ye geçirilmiştir.
+Varsayılan model: gpt-5.6-luna
+Fallback: gpt-5.6-terra
